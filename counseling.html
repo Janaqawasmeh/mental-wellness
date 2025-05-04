@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Counseling Services</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f6f9fc, #ddeaf6);
+      color: #2c3e50;
+      background-image: url('background.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    header {
+      background: linear-gradient(90deg, #004d99, #002b5c);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 5px solid #80bfff;
+    }
+
+    nav ul {
+      list-style-type: none;
+      background-color: #003366;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #336699;
+    }
+
+    section {
+      padding: 40px;
+      margin: 30px auto;
+      background-color: #f8fbff;
+      width: 90%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-left: 4px solid #b3d9ff;
+    }
+
+    h1, h2, h3 {
+      color: #002b5c;
+      margin-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      font-size: 26px;
+      color: #005580;
+    }
+
+    p {
+      margin-bottom: 20px;
+      line-height: 1.8;
+      text-align: justify;
+      text-indent: 25px;
+    }
+
+    ul {
+      margin: 20px 50px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    ol {
+      margin: 20px 50px;
+    }
+
+    .btn {
+      background: linear-gradient(to right, #00b4db, #0083b0);
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      display: inline-block;
+      margin: 20px 0;
+    }
+
+    .btn:hover {
+      background: linear-gradient(to right, #0083b0, #005f73);
+    }
+
+    form {
+      background: #f2f9ff;
+      padding: 30px;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 600px;
+      margin: 30px auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border: 2px dashed #b3d9ff;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+      width: auto;
+      background: linear-gradient(to right, #00b4db, #0083b0);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    input[type="submit"]:hover {
+      background: linear-gradient(to right, #0083b0, #005f73);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="color: #add8e6; text-shadow: 1px 1px 3px #000;">Online Counseling Services</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about us.html">About Us</a></li>
+        <li><a href="mental health resources.html">Mental Health</a></li>
+        <li><a href="self-help tools.html">Self-Help</a></li>
+        <li><a href="Emergency and contact.html">Contact Us</a></li>
+        <li><a href="Success Stories.html">Success Stories</a></li>
+        <li><a href="counseling.html">Online Counseling</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>You're Not Alone — Help is Here</h2>
+    <p>Whether you're struggling with exams, feeling overwhelmed, or simply need someone to talk to, we’re here to support you. Our online counseling options are private, student-focused, and easy to access.</p>
+  </section>
+
+  <section>
+    <h2>University Support</h2>
+    <p>Many universities offer free or low-cost counseling services for students. Reach out to your campus wellness center or student affairs office to book a session with a licensed counselor.</p>
+  </section>
+
+  <section>
+    <h2>Online Platforms You Can Trust</h2>
+    <ul>
+      <li><a href="https://www.betterhelp.com" target="_blank">BetterHelp</a> – Online therapy with licensed professionals, available via chat or video call.</li>
+      <li><a href="https://www.talkspace.com" target="_blank">Talkspace</a> – Flexible, mobile-based counseling for students on the go.</li>
+      <li><a href="https://7cups.com" target="_blank">7 Cups</a> – Free emotional support from trained volunteer listeners, available anytime.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Book an Appointment</h2>
+    <form action="https://formspree.io/f/mrbpnnap" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Preferred Time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <label for="message">Additional Notes:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Optional..."></textarea>
+
+      <input type="submit" value="Submit Appointment Request">
+      <input type="hidden" name="_next" value="thankyou.html">
+    </form>
+
+    <p>Follow these simple steps:</p>
+    <ol>
+      <li>Choose a platform or your campus support system.</li>
+      <li>Book an appointment or begin a chat session.</li>
+      <li>Speak freely and receive support — it’s confidential and judgment-free.</li>
+    </ol>
+
+    <div style="text-align: center;">
+      <a class="btn" href="mailto:janaqawasmeh02@gmail.com">Email a Counselor</a>
+    </div>
+  </section>
+</body>
+</html>

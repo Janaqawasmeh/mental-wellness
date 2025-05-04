@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emergency and Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f6f9fc, #ddeaf6);
+      color: #2c3e50;
+      background-image: url('background.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    header {
+      background: linear-gradient(90deg, #004d99, #002b5c);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 5px solid #80bfff;
+    }
+
+    nav ul {
+      list-style-type: none;
+      background-color: #003366;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #336699;
+    }
+
+    section {
+      padding: 40px;
+      margin: 30px auto;
+      background-color: #f8fbff;
+      width: 90%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-left: 4px solid #b3d9ff;
+    }
+
+    h1, h2 {
+      color: #002b5c;
+      margin-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      line-height: 1.8;
+      text-align: justify;
+      text-indent: 25px;
+    }
+
+    form {
+      background: #f2f9ff;
+      padding: 30px;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 600px;
+      margin: 30px auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border: 2px dashed #b3d9ff;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+      width: auto;
+      background: linear-gradient(to right, #00b4db, #0083b0);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    input[type="submit"]:hover {
+      background: linear-gradient(to right, #0083b0, #005f73);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="color: #add8e6; text-shadow: 1px 1px 3px #000;">Emergency and Contact</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about us.html">About Us</a></li>
+        <li><a href="mental health resources.html">Mental Health</a></li>
+        <li><a href="self-help tools.html">Self-Help</a></li>
+        <li><a href="Emergency and contact.html">Contact Us</a></li>
+        <li><a href="Success Stories.html">Success Stories</a></li>
+        <li><a href="counseling.html">Online Counseling</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>When to Seek Help?</h2>
+    <p>It's important to know when to reach out for professional help. If you're feeling overwhelmed, constantly anxious, sad for more than two weeks, or having thoughts of self-harm — you should not go through it alone. Support is available, and asking for help is a sign of strength.</p>
+  </section>
+
+  <section>
+    <h2>Emergency Contact</h2>
+    <p>In a mental health crisis, reaching out quickly can be life-saving. Universities usually offer free counseling services, and there are national hotlines that provide immediate help. Some websites also offer 24/7 mental health support through chat or phone.</p>
+  </section>
+
+  <section>
+    <h2>Contact Form</h2>
+    <p>If you're not ready to talk to someone face-to-face, you can send a message through this form. It's a private way to express how you're feeling and ask for help or more information about mental health services.</p>
+
+    <form action="#" method="POST">
+      <label for="name">Name:</label><br>
+      <input type="text" name="name" id="name" required><br>
+
+      <label for="message">Your Message:</label><br>
+      <textarea name="message" rows="5" id="message" required></textarea><br>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+</body>
+</html>
